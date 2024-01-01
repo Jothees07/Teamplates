@@ -1,0 +1,40 @@
+nav {
+    overflow: hidden;
+    padding: 5px 16px 5px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+}
+
+  /* Logo styles */
+.logo {
+    float: left;
+    display: inline-block;
+    margin:14px 16px;
+}
+
+.logo img{
+  padding: 0px 5px ;
+}
+
+.logo span{
+  vertical-align:top;
+}
+
+  /* Navigation links styles */
+.nav-links {
+    float: right;
+    display: inline-block;
+}
+
+.nav-links a {
+    color: #000;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+  /* Hover effect on navigation links */
+.nav-links a:hover {
+  border-bottom: 3px solid #000;
+}

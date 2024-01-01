@@ -1,0 +1,37 @@
+.external-div{
+    height: 80vh;
+    display: flex;
+    
+}
+
+.home{
+    margin: auto 30px auto 30px;
+    width: 100%;
+    display: flex;
+}
+
+
+.left-side-section{
+    width: 60%;
+    padding:2% 0% 1% 10%;
+}
+
+.left-side-section button{
+    background-color: #565656;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+} 
+
+button:hover{
+    cursor:pointer;
+}
+
+.right-side-section{
+    width: 40%;
+    align-items: center;
+}
+
+.right-side-section img{
+    width: 250px;
+}
